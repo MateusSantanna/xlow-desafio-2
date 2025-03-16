@@ -1,0 +1,42 @@
+.sliderContainer {
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.image {
+  width: 25rem;
+  height: 20rem;
+  border-radius: 8px;
+}
+
+.prev,
+.next {
+  position: absolute;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 50%;
+}
+
+.dotsContainer {
+  text-align: center;
+}
+
+.dot {
+  height: 1rem;
+  width: 1rem;
+  margin-left: 1rem;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dotActive {
+  background-color: black;
+}
